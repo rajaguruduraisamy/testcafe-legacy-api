@@ -1,16 +1,14 @@
 {
-  "name": "testcafe-legacy-api",
-  "version": "3.1.11",
-  "description": "Legacy API support for TestCafe",
+  "name": "@rajaguruduraisamy/testcafe-legacy-api",
+  "version": "1.0.1",
+  "description": "Legacy API support for TestCafe. Copied 3.1.11",
   "main": "lib/index.js",
   "scripts": {
-    "test": "gulp test",
-    "publish-please": "publish-please",
-    "prepublish": "publish-please guard"
+    "build": "gulp build"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DevExpress/testcafe-legacy-api.git"
+    "url": "git+https://github.com/rajaguruduraisamy/testcafe-legacy-api.git"
   },
   "keywords": [
     "testcafe",
@@ -46,11 +44,10 @@
     "gulp-webmake": "^0.0.4",
     "highlight-es": "^1.0.0",
     "multiline": "^1.0.2",
-    "publish-please": "^2.1.3",
-    "read-file-relative": "^1.2.0",
-    "testcafe-hammerhead": "^9.0.0"
+    "read-file-relative": "^1.2.0"
   },
   "dependencies": {
+    "@rajaguruduraisamy/testcafe-hammerhead": "1.0.1",
     "async": "0.2.6",
     "babel-runtime": "^5.8.34",
     "dedent": "^0.6.0",
